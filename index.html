@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ngehindar mulu, kek sama siapa aja</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="login-container" role="main" aria-label="Login Form">
+    <h1 class="login-title">Welcome </h1>
+    <form id="loginForm" novalidate>
+      <div>
+        <label for="username">Username or Email</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username or email" autocomplete="username" required />
+        <div class="validation-error" id="usernameError"></div>
+      </div>
+      <div class="password-wrapper">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" autocomplete="current-password" required minlength="6" />
+        <button type="button" class="toggle-password" aria-label="Toggle password visibility" tabindex="0">Show</button>
+        <div class="validation-error" id="passwordError"></div>
+      </div>
+      <button type="submit">Log In</button>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
