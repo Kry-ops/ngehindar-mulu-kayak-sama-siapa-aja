@@ -1,0 +1,1 @@
+# ngehindar-mulu-kayak-sama-siapa-aja
